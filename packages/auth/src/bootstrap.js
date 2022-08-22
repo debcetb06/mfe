@@ -10,6 +10,7 @@ const mount = (el, { onSignIn, onNavigate, defaultHistory, initialPath }) => {
     createMemoryHistory({
       initialEntries: [initialPath],
     });
+    
 
   if (onNavigate) {
     history.listen(onNavigate);
