@@ -132,10 +132,10 @@ export default function Album() {
                     </Typography>
                   </CardContent>
                   <CardActions>
-                    <Button size="small" color="primary">
+                    <Button size="small" color="primary" style={{ backgroundColor: '#0079c1' }}>
                       View
                     </Button>
-                    <Button size="small" color="primary">
+                    <Button size="small" color="primary" style={{ backgroundColor: '#0079c1' }}>
                       Edit
                     </Button>
                   </CardActions>
